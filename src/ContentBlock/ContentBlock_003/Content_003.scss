@@ -1,0 +1,66 @@
+.content_003{
+    position: relative;
+    width: 1440px;
+    height: 575px;
+    margin: 0 auto;
+}
+
+.bgContBlock_003, .bgMaskContBLock_003, .gradientContBlock_003{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bgContBlock_003{
+    z-index: 0;
+}
+
+.bgMaskContBLock_003{
+    z-index: 1;
+}
+
+.gradientContBlock_003{
+    z-index: 2;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.9;
+    filter: opacity(0.9);
+
+}
+
+.firstContBlock_003{
+    position: absolute;
+    top: 70px;
+    left: 165px;
+    bottom: 70px;
+    color: var(--white-001);
+    z-index: 3;
+    width: 521px;
+}
+
+.topContBlock_003{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.iconContBlock_003{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.butContBlock_003{
+    width: 265px;
+    height: 65px;
+    border: solid 1px var(--green-002);
+    background-color: var(--yellow-001);
+}
+
+.butContBlock_003:hover{
+    filter: brightness(60%);
+}
+
+.butContBlock_003:active{
+    filter: brightness(40%);
+}

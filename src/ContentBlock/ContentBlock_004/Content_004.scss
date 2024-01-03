@@ -1,0 +1,54 @@
+.content_004{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    z-index: 0;
+    width: 1440px;
+    height: 580px;
+    margin: 0 auto;
+    background-color: var(--white-001);
+}
+
+.imgArticleContBlock_004{
+    position: relative;
+    z-index: 0;
+    width: 440px;
+    height: 445px;
+    margin-left: 40px;
+}
+
+.frameContBlock_004{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.brushesContBloxk_004{
+    z-index: 2;
+    position: absolute;
+    left: 49px;
+    bottom: 43px;
+}
+
+.rightContBlock_004{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    right: 140px;
+    bottom: -150px;
+    width: 600px;
+    height: 445px;
+}
+
+.rePosit_001{
+    margin: 20px 0 35px 0;
+    height: 100px;
+}
+
+.employeePhoto{
+    width: 80px;
+    height: 80px;
+    margin: 0 10px 15px 10px;
+}

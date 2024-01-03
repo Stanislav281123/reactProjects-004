@@ -1,0 +1,93 @@
+:root{
+    --white-001: #ffffff;
+    --gray-001: #9c9898;
+    --gray-002: #86928B;
+    --green-001: #E1EDE6;
+    --green-002: #598D66;
+    --black: #000000;
+    --transparent-001: transparent;
+    --yellow-001: #EEDB6D;
+}
+
+body{
+    width: 1440px;
+    height: 3746px;
+    margin: 0 auto;
+    background-color: var(--gray-001);
+}
+
+.greenText{
+    color: var(--green-002);
+}
+
+.grayText{
+    color: var(--gray-002);
+}
+
+.zIn2{
+    z-index: 2;
+    
+}
+
+.mB20{
+    margin-bottom: 20px;
+}
+
+.mB30{
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------*/
+.greenBut{
+    border: solid 1px var(--green-002);
+    transition: 0,15s;
+}
+
+.greenBut:hover{
+    filter: brightness(70%);
+    transition: 0,15s;
+}
+
+.greenBut:active{
+    filter: brightness(40%);
+    border: solid 1px var(--black);
+    transition: 0,15s;
+}
+/*-------------------------------------*/
+
+.fw600{
+    font-weight: 600;
+}
+
+.lh30{
+    line-height: 30px;
+}
+
+.rePosit_003{
+    margin-top: 15px;
+}
+
+@import "_standardization.scss";
+@import "_fonts.scss";
+@import "../ContentBlock/Header/Header.scss";
+@import "../Elements/LogoBlock/LogoBlock.scss";
+@import "../Elements/BlockType_001/BlockType_001.scss";
+@import "../ContentBlock/ContentBlock_001/Content_001.scss";
+@import "../ContentBlock/ContentBlock_002/Content_002.scss";
+@import "../ContentBlock/ContentBlock_003/Content_003.scss";
+@import "../ContentBlock/ContentBlock_004/Content_004.scss";
+@import "../ContentBlock/ContentBlock_005/Content_005.scss";
+
+.sss{
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
